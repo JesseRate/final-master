@@ -1,0 +1,32 @@
+blockquote {
+
+  &.Preflight {
+  position: relative;
+  width: 600px;
+  font-size: 1.5em;
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  &.Rate {
+    position: relative;
+    width: 100px;
+    font-size: 1em;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 55px;
+    text-shadow:cornsilk;
+  }
+
+}
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(104, 6, 6);
+}
+
+h3 {
+  font-weight: bold;
+}

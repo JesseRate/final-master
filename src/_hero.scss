@@ -1,0 +1,41 @@
+
+.main-hero {
+  
+  &.content-right {
+    align-content: center;
+  }
+
+  &.mobile {
+  display: flex;
+  width: 100%;
+  height: 520px;
+  background-image: url('../pictures/faded_mobile.png');
+  background-size: cover;
+  }
+
+  &.tablet {
+    display: flex;
+    width: 100%;
+    height: 520px;
+    background-image: url('../pictures/faded_tablet.png');
+    background-size: cover;
+    }
+  
+    &.desktop {
+      display: flex;
+      width: 100%;
+      height: 820px;
+      background-image: url('../pictures/faded_desktop.png');
+      background-size: cover;
+      }
+
+}
+
+#odesza {
+  z-index: 35;
+  position: fixed;
+  top: 60px;
+  left: 60px;
+;
+
+}
