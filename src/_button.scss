@@ -1,43 +1,46 @@
 .btn {
-    position: relative;
-    display: inline-block;
-    /* padding: 10px 20px; */
-    background-color: goldenrod;
-    color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
-    border: none;
+    display: flex;
+    // background-color: wheat;
     overflow: hidden;
     transition: all 0.3s ease;
-    padding: 5px ;
     border-radius: 10px;
-    height: 50px;
-    cursor: wait;
-    margin: 20px 100px;
-  
-  &.hover, .focus {
-    background-color: red;
-    color: black;
-  }
+    height: 36px;
+    cursor: pointer;
+
+    .btn:hover {
+      color: rgb(225, 201, 141);
+    }
+    
+    // :hover {
+    //   color: rgb(225, 201, 141);
+    // }
 
   &.wide {
     width: 200px;
   }
   
-  &.before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 200%;
-    height: 200%;
-    background-color:  goldenrod;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    transition: all 0.3s ease;
-  }
+  // &.before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   width: 200%;
+  //   height: 200%;
+  //   background-color: wheat;
+  //   border-radius: 50%;
+  //   transform: translate(-50%, -50%);
+  //   transition: all 0.3s ease;
+  // }
 
 }
+
+
+
+
+
+// .btn:hover {
+//   color: rgb(225, 201, 141);
+// }
 
 .icon {
   height: 100%;

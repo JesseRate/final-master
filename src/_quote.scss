@@ -9,10 +9,11 @@ blockquote {
   }
 
   &.Rate {
-    position: relative;
-    width: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
     font-size: 1em;
-    color: blue;
+    color: wheat;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 55px;
     text-shadow:cornsilk;
