@@ -7,7 +7,7 @@
     justify-content: space-between;
     margin: 0px;
     max-width: 628px;
-    height: 1400px;
+    height: 2400px;
     background-color: wheat;
   }
 
@@ -40,8 +40,8 @@
   &.a {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 500px;
+  justify-content: space-around;
+  height: 1500px;
   width: 100%;
   background-color: black;
   }
